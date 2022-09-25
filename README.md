@@ -50,7 +50,7 @@ To deploy the Cosmos DB accounts for this solution, follow the steps below.
 - Open the AppSettings.json for the solution on your local machine
 - Copy the values for the endpoints and keys from each account to their corresponding placeholder in AppSettings.json
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/DavideDelVecchio/cosmos-global-distribution-demos/mvwestus2to3/CosmosGlobalDistDemos/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDavideDelVecchio%2Fcosmos-global-distribution-demos%2Fmvwestus2to3%2FCosmosGlobalDistDemos%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
