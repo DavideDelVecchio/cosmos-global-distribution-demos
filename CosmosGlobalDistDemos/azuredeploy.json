@@ -24,7 +24,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('singleRegionEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('singleRegionEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -44,7 +44,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('multiRegionEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('multiRegionEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -57,7 +57,7 @@
             "failoverPriority": 0
           },
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 1
           }
         ]
@@ -68,7 +68,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('eventualEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('eventualEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -77,7 +77,7 @@
         },
         "locations": [
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 0
           },
           {
@@ -92,7 +92,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('strong1kMilesEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('strong1kMilesEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -101,7 +101,7 @@
         },
         "locations": [
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 0
           },
           {
@@ -116,7 +116,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('strong2kMilesEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('strong2kMilesEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -125,7 +125,7 @@
         },
         "locations": [
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 0
           },
           {
@@ -140,7 +140,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('singleMasterEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('singleMasterEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -153,7 +153,7 @@
             "failoverPriority": 0
           },
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 1
           }
         ]
@@ -164,7 +164,7 @@
       "type": "Microsoft.DocumentDB/databaseAccounts",
       "kind": "GlobalDocumentDB",
       "name": "[variables('multiMasterEndpoint')]",
-      "location": "West US 2",
+      "location": "West US 3",
       "properties": {
         "name": "[variables('multiMasterEndpoint')]",
         "databaseAccountOfferType": "Standard",
@@ -178,7 +178,7 @@
             "failoverPriority": 0
           },
           {
-            "locationName": "West US 2",
+            "locationName": "West US 3",
             "failoverPriority": 1
           },
           {
